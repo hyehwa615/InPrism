@@ -402,7 +402,7 @@ body {
 
 .layout-5-images img {
   margin-right: 3vw;
-  animation: moveHorizontally 30s infinite linear; 
+  animation: moveHorizontally 20s infinite linear; 
 }
 
 @keyframes moveHorizontally {
