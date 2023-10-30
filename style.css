@@ -402,7 +402,7 @@ body {
 
 .layout-5-images img {
   margin-right: 3vw;
-  animation: moveHorizontally 20s infinite linear; 
+  animation: moveHorizontally 16s infinite linear; 
 }
 
 @keyframes moveHorizontally {
@@ -512,6 +512,7 @@ body {
 .layout-8-images img {
   width: 15vw;
   height: 15vw;
+  margin-left: 5.5px;
 }
 
 .layout-8-box {
@@ -519,7 +520,6 @@ body {
   justify-content: center;
   width: 75vw;
   height: 20vh;
-
   background-image: url("img/team-box.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
