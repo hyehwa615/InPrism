@@ -100,6 +100,7 @@ body {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  text-align: center;
 }
 
 .layout-1-text {
@@ -117,6 +118,7 @@ body {
 .layout-1-text p {
   font-size: 32px;
   display: flex;
+  text-align: center;
 }
 
 .layout-1-text h1 {
@@ -128,7 +130,6 @@ body {
 }
 
 .layout-1-text h1:nth-child(2) {
-  padding-left: 3.3rem;
   letter-spacing: 5rem;
   margin-top: -10vh;
   color: rgba(255, 255, 255, 0.1);
@@ -168,7 +169,7 @@ body {
 
 .layout-2-text p {
   margin-bottom: 0.5rem;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .layout-3 {
@@ -208,7 +209,7 @@ body {
 .layout-3-title p {
   width: 80vw;
   margin-bottom: 0.5rem;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .layout-3-image {
@@ -401,7 +402,7 @@ body {
 
 .layout-5-images img {
   margin-right: 3vw;
-  animation: moveHorizontally 8s infinite linear; 
+  animation: moveHorizontally 30s infinite linear; 
 }
 
 @keyframes moveHorizontally {
