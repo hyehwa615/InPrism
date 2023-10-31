@@ -46,7 +46,7 @@ body {
   background: linear-gradient(90deg, #fff, #fff, #fff);
   background-repeat: no-repeat;
   background-size: 80%;
-  animation: animate 6s linear infinite;
+  animation: animate 2s linear infinite;
   -webkit-background-clip: text;
   -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
@@ -116,7 +116,7 @@ body {
 }
 
 .layout-1-text p {
-  font-size: 32px;
+  font-size: 35px;
   display: flex;
   text-align: center;
 }
@@ -125,7 +125,7 @@ body {
   width: 100vw;
   height: 10vh;
   font-weight: 600;
-  font-size: 78px;
+  font-size: 85px;
   text-align: center;
 }
 
@@ -137,6 +137,10 @@ body {
 
 .layout-1-title {
   /* width: 20vw; */
+}
+
+strong {
+  color: #fff;
 }
 
 .layout-2 {
@@ -170,6 +174,7 @@ body {
 .layout-2-text p {
   margin-bottom: 0.5rem;
   font-size: 18px;
+  color: #cccccc;
 }
 
 .layout-3 {
@@ -280,11 +285,10 @@ body {
 
 .layout-4-image {
   margin-top: -7vw;
-  height: 14vw;
-  width: 14vw;
+  height: 12vw;
+  width: 12vw;
   border-radius: 100%;
   background-color: #000424;
-
   background-image: url("img/emoji.png");
   background-position: center center;
   background-size: 100% 100%;
@@ -308,6 +312,7 @@ body {
 }
 
 .layout-4-circles {
+
   display: flex;
 }
 
@@ -318,7 +323,6 @@ body {
   justify-content: center;
   width: 15rem;
   height: 15rem;
-  border: 1px solid #755EFF;
   border-radius: 100%;
 }
 
@@ -330,7 +334,6 @@ body {
   justify-content: center;
   width: 15rem;
   height: 15rem;
-  border: 1px solid #755EFF;
   border-radius: 100%;
 }
 
@@ -342,7 +345,6 @@ body {
   justify-content: center;
   width: 15rem;
   height: 15rem;
-  border: 1px solid #755EFF;
   border-radius: 100%;
 }
 
@@ -350,7 +352,6 @@ body {
 .layout-5 {
   display: flex;
   align-items: center;
-
   justify-content: center;
   flex-direction: column;
   background-color: #000424;
@@ -368,6 +369,7 @@ body {
 }
 
 .layout-5-text h1 {
+  font-size: 30px;
   margin-bottom: 1rem;
 }
 
@@ -383,38 +385,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 3vw;
 }
 
 .layout-5-object img {
   text-align: center;
   width: 12vw;
   height: 12vw;
-}
-
-/* 가로 애니메이션 */
-.layout-5-images {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 10vh;
-  overflow: hidden; 
-}
-
-.layout-5-images img {
-  margin-right: 3vw;
-  animation: moveHorizontally 16s infinite linear; 
-}
-
-@keyframes moveHorizontally {
-  0% {
-    transform: translateX(35vw);
-  }
-  50% {
-    transform: translateX(-35vw);
-  }
-  100% {
-    transform: translateX(35vw);
-  }
 }
 
 .layout-6 {
@@ -452,6 +429,7 @@ body {
   margin-right: 3vw;
 }
 
+
 .layout-7 {
   display: flex;
   align-items: center;
@@ -475,10 +453,17 @@ body {
   margin-bottom: 1rem;
 }
 
+/*
 .layout-7-video {
   width: 60vw;
   height: 60vh;
-  background-color: white;
+}
+*/
+
+video {
+  width: 48vw;
+  height: 60vh;
+  text-align: center;
 }
 
 .layout-8 {
@@ -505,14 +490,14 @@ body {
 }
 
 .layout-8-images {
-  width: 75vw;
+  width: 60vw;
   display: flex;
 }
 
 .layout-8-images img {
-  width: 15vw;
-  height: 15vw;
-  margin-left: 5px;
+  width: 14vw;
+  height: 14vw;
+  margin-left: 15px;
 }
 
 .layout-8-box {
@@ -532,4 +517,43 @@ body {
   justify-content: center;
   width: 15vw;
   height: 15vh;
+}
+
+/* 낑김 */
+.layout-plus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #000424;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+}
+
+.layout-plus-text {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3vh;
+}
+
+.layout-plus-text h1 {
+  margin-bottom: 1rem;
+}
+
+.layout-plus-images img {
+  display: flex;
+  width: 30vw;
+  margin-right: 3vw;
+}
+
+.plus-1 {
+  margin-right: 800px;
+}
+
+
+.plus-2 {
+  margin-left: 800px;
 }
