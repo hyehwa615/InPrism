@@ -283,8 +283,8 @@ html, body {
 
 .layout-4-image {
   margin-top: -7vw;
-  height: 12vw;
-  width: 12vw;
+  height: 14vw;
+  width: 14vw;
   border-radius: 100%;
   background-color: #000424;
   background-image: url("img/emoji.png");
@@ -310,7 +310,6 @@ html, body {
 }
 
 .layout-4-circles {
-
   display: flex;
 }
 
@@ -319,8 +318,8 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 15rem;
-  height: 15rem;
+  width: 10rem;
+  height: 10rem;
   border-radius: 100%;
 }
 
@@ -330,8 +329,8 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 15rem;
-  height: 15rem;
+  width: 10rem;
+  height: 10rem;
   border-radius: 100%;
 }
 
@@ -341,8 +340,8 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 15rem;
-  height: 15rem;
+  width: 10rem;
+  height: 10rem;
   border-radius: 100%;
 }
 
@@ -371,7 +370,7 @@ html, body {
 }
 
 .layout-5-text p {
-  margin-bottom: 1rem;
+  ㄴㄴmargin-bottom: 1rem;
 }
 
 .layout-5-objects {
@@ -494,7 +493,7 @@ video {
 .layout-8-images img {
   width: 14vw;
   height: 14vw;
-  margin-left: 15px;
+  margin-left: 13px;
 }
 
 .layout-8-box {
@@ -518,6 +517,9 @@ video {
 
 /* 중간에 긴 사진 */
 .layout-plus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
   background-color: #000424;
   width: 100vw;
@@ -528,11 +530,9 @@ video {
 .layout-plus-images img {
   width: 25vw;
 }
-
-.layout-plus-images {
-}
 /* 중간에 긴 사진 */
 
+/* ㅇㅂ... */
 .layout-plus-text {
   flex-direction: column;
   display: flex;
@@ -543,4 +543,15 @@ video {
 
 .layout-plus-text h1 {
   margin-bottom: 1rem;
+}
+
+.plus-1 {
+  float: left;
+  margin-right: 150px;
+}
+
+.plus-2 {
+  float: right;
+  margin-left: 150px;
+  margin-top: 110px;
 }
