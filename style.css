@@ -283,8 +283,8 @@ html, body {
 
 .layout-4-image {
   margin-top: -7vw;
-  height: 14vw;
-  width: 14vw;
+  height: 12vw;
+  width: 12vw;
   border-radius: 100%;
   background-color: #000424;
   background-image: url("img/emoji.png");
@@ -318,8 +318,8 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 10rem;
-  height: 10rem;
+  width: 12rem;
+  height: 12rem;
   border-radius: 100%;
 }
 
@@ -329,8 +329,8 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 10rem;
-  height: 10rem;
+  width: 12rem;
+  height: 12rem;
   border-radius: 100%;
 }
 
@@ -340,8 +340,8 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 10rem;
-  height: 10rem;
+  width: 12rem;
+  height: 12rem;
   border-radius: 100%;
 }
 
