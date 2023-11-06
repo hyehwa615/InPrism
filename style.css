@@ -370,7 +370,7 @@ html, body {
 }
 
 .layout-5-text p {
-  ㄴㄴmargin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .layout-5-objects {
@@ -456,7 +456,7 @@ html, body {
 }
 */
 
-video {
+iframe {
   width: 48vw;
   height: 60vh;
   text-align: center;
