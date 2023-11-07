@@ -456,11 +456,6 @@ html, body {
 }
 */
 
-iframe {
-  width: 48vw;
-  height: 60vh;
-  text-align: center;
-}
 
 .layout-8 {
   display: flex;
@@ -493,7 +488,7 @@ iframe {
 .layout-8-images img {
   width: 14vw;
   height: 14vw;
-  margin-left: 13px;
+  margin-left: 15px;
 }
 
 .layout-8-box {
